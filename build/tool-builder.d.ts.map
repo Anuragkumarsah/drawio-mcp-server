@@ -1,0 +1,1 @@
+{"version":3,"file":"tool-builder.d.ts","sourceRoot":"","sources":["../src/tool-builder.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,MAAM,oCAAoC,CAAC;AACpE,OAAO,EAAE,OAAO,EAAE,MAAM,YAAY,CAAC;AAIrC;;;;;;;;GAQG;AACH,wBAAgB,UAAU,CAAC,MAAM,EAC/B,OAAO,EAAE,OAAO,EAChB,SAAS,EAAE,MAAM,EACjB,WAAW,EAAE,CAAC,cAAc,EAAE,GAAG,KAAK,cAAc,IAEtC,MAAM,MAAM,KAAG,OAAO,CAAC,cAAc,CAAC,CAgCrD"}
