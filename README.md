@@ -1,4 +1,4 @@
-# Draw.io MCP Server v2
+# Draw.io MCP Server
 
 A Node.js MCP (Model Context Protocol) server that enables AI/LLM agents to create, modify, and export draw.io diagrams programmatically. It communicates with a companion Chrome extension via WebSocket to manipulate diagrams on the draw.io canvas in real-time.
 
@@ -33,14 +33,14 @@ The `render_subgraph` and `modify_subgraph` tools support these layout algorithm
 
 - **Node.js** v18 or later
 - **npm** v9 or later
-- The [drawio-mcp-extension-v2](../drawio-mcp-extension-v2/) Chrome extension must be installed and connected
+- The [drawio-mcp-extension](https://github.com/Anuragkumarsah/draw-io-extension) Chrome extension must be installed and connected
 
 ## Setup & Installation
 
 ### 1. Install Dependencies
 
 ```bash
-cd drawio-mcp-server-v2
+cd drawio-mcp-server
 npm install
 ```
 
@@ -65,7 +65,7 @@ Add to your `mcp_config.json`:
   "mcpServers": {
     "drawio": {
       "command": "node",
-      "args": ["d:/NewProjects/Draw IO MCP Server/drawio-mcp-server-v2/build/index.js"]
+      "args": ["path_to_your_project/build/index.js"]
     }
   }
 }
@@ -80,7 +80,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "drawio": {
       "command": "node",
-      "args": ["/absolute/path/to/drawio-mcp-server-v2/build/index.js"]
+      "args": ["/absolute/path/to/build/index.js"]
     }
   }
 }
